@@ -1,0 +1,45 @@
+Ans.1
+By using endl after cout<<"Physics"<< this.
+
+
+Ans.2
+#include<iostream>
+using namespace std;
+int main(){
+int a=5;
+int b=2;
+int c;
+c=a*b;
+cout<<c;
+}
+
+
+Ans.3
+int = 4 bytes
+bool = 1 byte
+float =4 bytes
+
+
+Ans.4
+output is
+6 4
+
+
+Ans.5
+#include <iostream>
+using namespace std;
+int main() {
+    int r= 10;         // Set the radius
+    float circumference;       // Variable to store the circumference
+    circumference = 2 *3.14*r;
+    cout << "The circumference of the circle is "<< circumference << endl;
+}
+
+output
+The circumference of the circle is 62.8
+
+
+Ans.6
+_FLOAT
+ FLOAT
+can be a variable name.
