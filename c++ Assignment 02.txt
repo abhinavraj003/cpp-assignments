@@ -1,0 +1,55 @@
+Ans.1
+0
+
+
+Ans.2
+1 1
+
+
+Ans.3
+2
+
+
+Ans.4
+#include<iostream>
+using namespace std;
+int main(){
+    float r;
+    cout<<"Enter the radius of cylinder:";
+    cin>>r;
+    float H;
+    cout<<"Enter the height of cylinder:";
+    cin>>H;
+    float Volume=3.14*r*r*H;
+    cout<<Volume;
+}
+
+output
+Enter the radius of cylinder:5
+Enter the height of cylinder:6
+471
+
+
+Ans.5
+#include <iostream>
+using namespace std;
+int main()
+{
+char ch,chh;
+cout<<"Enter 1st character:";
+cin>>ch;
+cout<<"Enter 2nd Character:";
+cin>>chh;
+int difference;
+difference=int(ch)-int(chh);
+cout<<"difference:"<<difference;
+}
+
+output
+Enter 1st character:z
+Enter 2nd Character:a
+difference:25
+
+
+Ans.6
+49
